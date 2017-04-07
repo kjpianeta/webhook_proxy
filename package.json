@@ -1,0 +1,21 @@
+{
+  "name": "webhook-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "buffer-equal-constant-time": "^1.0.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "octonode": "^0.7.10",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.3.2"
+  },
+  "devDependencies": {
+    "debug": "latest"
+  }
+}
